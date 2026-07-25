@@ -7,7 +7,7 @@ function Home() {
         <div>
             {/* Hero Section  */}
             <div className="p-4 text-center space-y-2 py-20">
-                <div className="text-3xl text-purple-950 font-semibold flex gap-1 justify-center items-center">Welcome to EcomStore <img width={50} src="/favicon.svg" alt="logo" /></div>
+                <div className="text-3xl text-purple-950 font-semibold">Welcome to EcomStore</div>
                 <p className="text-gray-600">Discover best products at reasonable prices</p>
             </div>
 
