@@ -35,7 +35,7 @@ function Navbar() {
             <div className="shadow-sm">
                 <div className="flex justify-between items-center h-16 px-4 max-w-6xl mx-auto">
                     <div>
-                        <Link to="/" className="text-lg font-semibold text-purple-950 flex gap-2 items-center"><img width={50} src="/favicon.svg" alt="logo" />EcomStore</Link>
+                        <Link to="/" className="text-lg font-semibold text-purple-950 flex items-center"><img width={50} src="/favicon.svg" alt="logo" />EcomStore</Link>
                     </div>
                     <div className="flex gap-4">
                         <Link to="/" className="text-gray-500 hover:text-black transition-all">Home</Link>
