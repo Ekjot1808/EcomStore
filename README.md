@@ -4,11 +4,11 @@
 
 | Home | Products |
 |------|----------|
-| ![Home](./screenshots/home.png) | ![Products](./screenshots/products.png) |
+| ![Home](./screenshots/home.png) | ![ProductDetail](./screenshots/product-detail.png) |
 
 | Cart | Checkout |
 |------|----------|
-| ![Cart](./screenshots/cart.png) | ![Checkout](./screenshots/checkout.png) |
+| ![Auth](./screenshots/auth.png) | ![Checkout](./screenshots/checkout.png) |
 
 A modern and responsive eCommerce frontend built with **React**. Users can browse products, manage their shopping cart, and experience a clean and intuitive user interface.
 
