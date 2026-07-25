@@ -1,16 +1,141 @@
-# React + Vite
+# 🛒 E-Commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 📸 Screenshots
 
-Currently, two official plugins are available:
+| Home | Products |
+|------|----------|
+| ![Home](./screenshots/home.png) | ![Products](./screenshots/products.png) |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Cart | Checkout |
+|------|----------|
+| ![Cart](./screenshots/cart.png) | ![Checkout](./screenshots/checkout.png) |
 
-## React Compiler
+A modern and responsive eCommerce frontend built with **React**. Users can browse products, manage their shopping cart, and experience a clean and intuitive user interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- 🏠 Home page with featured products
+- 📦 Product listing
+- 🔍 Product details page
+- 🛒 Add to Cart functionality
+- ❌ Remove items from cart
+- ➕ Update product quantity
+- 💰 Automatic total price calculation
+- 📱 Responsive design
+- 🔔 Toast notifications
+- 📝 Form validation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+- React
+- React Router
+- React Hook Form
+- React Toastify
+- Tailwind CSS
+- JavaScript (ES6+)
+
+## 📦 Packages Used
+
+| Package           | Purpose                      |
+|-------------------|------------------------------|
+| `react-router`    | Client-side routing          |
+| `react-hook-form` | Form handling and validation |
+| `react-toastify`  | Beautiful toast notifications|
+
+## 📁 Project Structure
+
+```
+src/
+│── assets/
+│── components/
+│── context/
+│── data/
+│── layouts/
+│── pages/
+│── App.jsx
+│── index.css
+│── main.jsx
+```
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Ekjot1808/EcomStore.git
+```
+
+Navigate to the project folder
+
+```bash
+cd EcomStore
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+## 📸 Screenshots
+
+Add screenshots of your application here.
+
+```
+screenshots/
+├── home.png
+├── product-detail.png
+├── checkout.png
+└── auth.png
+```
+
+## 🎯 Future Improvements
+
+- User Authentication
+- Wishlist
+- Product Search
+- Product Filters
+- Category-wise Products
+- Dark Mode
+- Payment Gateway Integration
+- Order History
+- Backend Integration
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push the branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+Developed with ❤️ using React.
