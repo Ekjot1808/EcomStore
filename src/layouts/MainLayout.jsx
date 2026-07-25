@@ -1,0 +1,17 @@
+import { Outlet } from "react-router";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
+function MainLayout() {
+    return (
+        <div className="bg-gray-100 min-h-screen">
+            <Navbar />
+            <main>
+                <Outlet />
+            </main>
+            <Footer />
+        </div>
+    );
+}
+
+export default MainLayout;
