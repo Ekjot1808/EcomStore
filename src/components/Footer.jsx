@@ -9,7 +9,7 @@ function Footer() {
                     <p className="text-gray-200">All &copy; Copyrights are Resevered by Ekjot Singh | <span className="font-bold">EcomStore</span></p>
                 </div>
                 <div>
-                    <Link to="/" className="text-gray-300 underline">View code on GitHub</Link>
+                    <Link to="https://github.com/Ekjot1808/EcomStore" className="text-gray-300 underline">View code on GitHub</Link>
                 </div>
             </div>
         </div>
